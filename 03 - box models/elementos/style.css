@@ -1,0 +1,38 @@
+* {
+    /* para que las cajas no se les sume el margin y el padding */
+    box-sizing: border-box;
+    /* Para margenes del html  */
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+.block {
+    background-color: teal;
+    color: white;
+    padding: 30px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.inline {
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin: 50px;
+}

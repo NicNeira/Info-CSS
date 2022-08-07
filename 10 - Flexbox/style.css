@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    width: 400px;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    /* outaline no afecta al box models */
+    outline: 3px solid black;
+    display: flex;
+    /* row | row-reverse | column | column-reverse */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap-reverse; */
+    /* Alinear el contenido */
+    /* justify-content: space-evenly; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-evenly; */
+}
+
+.element {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 400px;
+    height: 100px;
+    /* flex-basis: 50px; */
+    /* flex-shrink: 0; */
+}
+
+.element1 {
+    background-color: crimson;
+}
+
+.element2 {
+    background-color: steelblue;
+}
+
+.element3 {
+    background-color: purple;
+    /* lo mismo que flex pero para un elemento en especifico */
+    align-self: center;
+}

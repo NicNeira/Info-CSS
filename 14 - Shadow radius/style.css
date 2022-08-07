@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+    /* Nos permite agregar sombras e incluso dibujar */
+    /* box-shadow: 100px 200px 10px blue, 100px 100px; */
+    /* Para crear un circulo | tiene que ser un cuadrado y aplicar border radius */
+    border-radius: 50px 100px;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 30px; */
+}

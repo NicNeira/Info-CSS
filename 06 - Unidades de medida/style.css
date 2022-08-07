@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 300vh; */
+    height: 300px;
+}
+
+.container {
+    background-color: slateblue;
+    color: white;
+    /* min-height: 100px; */
+    /* padding: 30px; */
+    /* vw | es relativa al viewport whidth */
+    /* width: 100%; */
+    /* vh | parte visible del alto del navegador*/
+    /* height: 100vh; */
+    width: 100%;
+    height: 100vh;
+}
+
+.item {
+    height: 100px;
+    background-color: tomato;
+    width: 50%;
+    height: 50%;
+    /* Los porcentajes siempre son relativos al tamaño del padre del elemento */
+}
+
+.title {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    /* Unidades de longitud relativa */
+}
+
+.primero {
+    /* 1 rem == 16px */
+    /* font-size: 1.5rem; */
+}
+
+.segundo,
+.tercero {
+    /* font-size: 24px; */
+}
+
+.cuarto {
+    /* em depende del valor del font-size del padre  */
+    /* font-size: 2em; */
+    /* padding: 2em 0; */
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tittle {
+    margin: 70px;
+    /* RGB --> Red Green Blue */
+    color: #0000ff92;
+}
+
+.background {
+    height: 330px;
+    background-color: steelblue;
+    /* background-image: url('images/codigofacilito.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* top left bottom right center */
+    background-image: linear-gradient( rgba(255, 105, 180, 0.501), rgba(70, 131, 180, 0.507)), url('images/Space.png');
+    background-size: cover;
+    background-position: center;
+    /* Arreglar colapso de imagenes  */
+    padding: .1px;
+}
+
+h2 {
+    margin-top: 100px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}

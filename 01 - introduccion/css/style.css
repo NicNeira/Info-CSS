@@ -1,0 +1,52 @@
+/* Selectores */
+
+
+/* Selector universal
+
+* {
+    color: red;
+} */
+
+
+/* Selector de tipo, nombre o etiqueta */
+
+
+/* p {
+    color: orange;
+    font-size: 30px;
+} */
+
+
+/* Selectores de clase */
+
+
+/* .titulo {
+    color: brown;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.negrita {
+    font-weight: bold;
+} */
+
+
+/* Selectores de ID */
+
+
+/* #titulo {
+    color: steelblue;
+    font-size: 50px;
+} */
+
+
+/* Selector combinador de descendientes */
+
+
+/* .abuelo .titulo {
+    color: red;
+}
+
+.abuelo>.titulo {
+    color: blue;
+} */

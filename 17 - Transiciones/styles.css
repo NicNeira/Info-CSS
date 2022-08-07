@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    margin: 60px;
+}
+
+.element:hover {}

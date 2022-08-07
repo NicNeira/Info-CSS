@@ -1,0 +1,23 @@
+body {
+    font-family: cursive;
+    color: tomato;
+    border: 2px solid black;
+}
+
+a {
+    /* inherit hereda el color */
+    border: inherit;
+}
+
+input {
+    font-family: inherit;
+}
+
+
+/* 1 - Selector de tipo, Pseudoelementos :: */
+
+
+/* 10 - Selector de clase, Pseudoclases :, [] */
+
+
+/* 100 Selector de ID */

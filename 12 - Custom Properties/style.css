@@ -1,0 +1,35 @@
+/* Custom properties */
+
+:root {
+    /* El nombre que quieras */
+    --bordes-colores: 3px dashed black;
+    --color-principal: royalblue;
+    --padding-botones: 30px 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    border: var(--bordes-colores, 10px solid red);
+    color: var(--color-principal);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-principal);
+    color: #fff;
+    text-decoration: none;
+    border: var(--bordes-colores);
+}
+
+.paragraph {
+    color: var(--color-principal);
+    border: var(--bordes-colores);
+}

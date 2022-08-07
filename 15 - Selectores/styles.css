@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    margin: 50px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+    text-align: center;
+    width: 200px;
+    transition: 1s all;
+}
+
+.btn-red {
+    background-color: red;
+}
+
+
+/* Pseudo clase empieza con 2 puntos */
+
+
+/* .btn-red:hover {
+    transform: scale(1.2);
+} */
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-blue:active {
+    font-size: 30px;
+}
+
+.btn-blue:hover {
+    background-color: black;
+}
+
+.btn-tomato {
+    background-color: tomato;
+}
+
+
+/* .elemento_referencia + .hermano_siguiente */
+
+
+/* Selector de hermanos generales */
+
+
+/* .btn-blue:hover~.button {
+    transform: translate(100%);
+} */
+
+
+/* Nos ayuda a saber cuando un elemento a sido referenciado por anclas */
+
+
+/* .element:target {
+    background-color: black;
+    transform: translate(100%);
+} */
+
+.input {
+    display: block;
+    margin: 20px;
+    padding: 16px;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+/* .input:focus+.label {
+    background-color: aquamarine;
+} */
+
+.label {
+    background-color: crimson;
+    color: white;
+}
+
+.check {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.check:checked+.label {
+    background-color: green;
+    transform: scale(2);
+}
+
+
+/* Pseudoe Elementos :: */
+
+.element {
+    width: max-content;
+    padding: 20px;
+    margin: 60px;
+    background-color: steelblue;
+    color: white;
+    font-size: 30px;
+}
+
+.element::before {
+    content: "";
+    background-color: green;
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.element::after {
+    content: "Soy Pipa";
+    background-color: crimson;
+    display: block;
+    width: 300px;
+    height: 200px;
+}
